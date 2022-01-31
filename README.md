@@ -1,6 +1,6 @@
 # Initial work using `antlr` generated CQL parser
 
-To execute the code in this repository you must use the `nightly` verson of Rust.
+To execute the code in this repository you must use the `nightly` version of Rust.
 
 To set this up execute: 
 
@@ -12,6 +12,9 @@ When you want to revert to using rust `stable`, you can run:
 ```
 rustup default stable
 ```
+## Usage examples
+
+Usage examples can be found at: https://github.com/rrevenantt/antlr4rust
 
 ## cql parser source generation.
 
