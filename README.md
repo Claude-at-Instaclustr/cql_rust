@@ -31,4 +31,22 @@ java -jar antlr4-4.8-2-SNAPSHOT-complete.jar \
 
 ```
 
+## External components
+
+### https://github.com/antlr/grammars-v4.git
+
+Contains the grammar source files for antlr.  This is the source of the CQL3 definition.
+
+### https://github.com/rrevenantt/antlr4rust
+
+A custom implementation of the [Antlr4](https://github.com/antlr/antlr4) tool that builds the `Rust` source code.  This component imposes the `nightly` requirement on the `Rust` system. 
+
+The documentation for Antlr4Rust states:
+
+```
+Currently, requires nightly version of rust. This likely will be 
+the case until coerce_unsized or some kind of coercion trait is 
+stabilized. There are other unstable features in use but only 
+CoerceUnsized is essential.
+```
 
